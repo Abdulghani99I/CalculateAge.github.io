@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>حساب العمر</title>
+</head>
+<body>
+    <div class="container">
+      <h1>يمكنك حساب عمرك بطريقة دقيقة واحترافية</h1>
+
+      <div class="input-date">
+          <h3>أدخل تاريخ الميلاد بالميلادي</h3>
+          <form>
+            <div class="input-group">
+                <!-- <label for="year">السنة:</label> -->
+                <select id="year" name="year">
+                    <option>السنة</option>
+                </select>
+              </div>
+              <div class="input-group">
+                  <!-- <label for="month">الشهر:</label> -->
+                  <select id="month" name="month">
+                      <option>الشهر</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                  <!-- <label for="day">اليوم:</label> -->
+                  <select id="day" name="day">
+                      
+                      <option>اليوم</option>
+                  </select>
+              </div>
+            </form>
+            
+            <div id="btn-calc">
+                <button type="submit">احسب</button>
+            </div>
+          
+          <div id="result" class="hide">
+            <p>سيضهر العمر هنا</p>
+          </div>
+      </div>
+
+      
+    </div>
+  
+    <script src="main.js"></script>
+</body>
+  
+</html>
