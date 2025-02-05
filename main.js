@@ -63,7 +63,7 @@ btnCalc.onclick = function()
   let ageCalcResult = calculateAge(dayNum.value, monthNum.value, yearNum.value);
 
   
-  let nextBirthDay = nextBirthday(new Date(yearNum.value, monthNum.value, dayNum.value));
+  let nextBirthDay = nextBirthday(new Date(yearNum.value, monthNum.value - 1, dayNum.value));
 
   
   resultTextAgeCalc.innerHTML = `
